@@ -405,12 +405,12 @@
   text-align: center; }
 
 .b_2_right button {
-  border-radius: 11px;
+  border-radius: 8px;
   width: 63px;
-  height: 30px;
+  height: 40px;
   background: #000;
   position: absolute;
-  bottom: 22px;
+  bottom: 18px;
   right: 6px; }
 
 .bottom_3 ul li {
