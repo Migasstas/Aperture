@@ -3,16 +3,52 @@
   margin: 0;
   box-sizing: border-box; }
 
+@font-face {
+  font-family: 'Poppins';
+  src: url("../fonts/Poppins Regular.eot");
+  src: url("../fonts/Poppins Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Poppins Regular.woff2") format("woff2"), url("../fonts/Poppins Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-2212; }
+@font-face {
+  font-family: 'Poppins';
+  src: url("../fonts/Poppins Bold.eot");
+  src: url("../fonts/Poppins Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Poppins Bold.woff2") format("woff2"), url("../fonts/Poppins Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-2212; }
+@font-face {
+  font-family: 'Poppins Medium';
+  src: url("../fonts/Poppins Medium.eot");
+  src: url("../fonts/Poppins Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Poppins Medium.woff2") format("woff2"), url("../fonts/Poppins Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-2212; }
+@font-face {
+  font-family: 'Poppins Thin';
+  src: url("../fonts/Poppins Thin.eot");
+  src: url("../fonts/Poppins Thin.eot?#iefix") format("embedded-opentype"), url("../fonts/Poppins Thin.woff2") format("woff2"), url("../fonts/Poppins Thin.woff") format("woff");
+  font-weight: 250;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-2212; }
 .container {
   max-width: 1440px;
   margin: auto;
   background: black; }
 
 .header {
+  font-family: 'Poppins', sans-serif;
   display: flex;
   justify-content: space-between;
   min-height: 90px;
   align-items: center; }
+
+.header a {
+  color: black; }
 
 .logo {
   margin-left: 150px; }
@@ -46,6 +82,7 @@
 
 .section-1 {
   background-image: url("../images/background-section-1.png");
+  font-family: 'Poppins', sans-serif;
   min-height: 700px;
   display: flex;
   justify-content: center;
@@ -56,6 +93,7 @@
   margin-bottom: 60px; }
 
 .section-1_text h3 {
+  font-weight: 400;
   font-size: 14px;
   line-height: 143%;
   letter-spacing: 0.14em;
@@ -64,10 +102,12 @@
   color: #c0c0c0; }
 
 .section-1_text h1 {
+  font-weight: 400;
   font-size: 54px;
   line-height: 110%;
   text-align: center;
-  color: #fff; }
+  color: #fff;
+  margin-bottom: 15px; }
 
 .section-1_text p {
   font-size: 14px;
@@ -76,6 +116,7 @@
   color: #c0c0c0; }
 
 .section-2 {
+  font-family: 'Poppins', sans-serif;
   max-width: 1440px;
   min-height: 1560px;
   display: flex;
@@ -168,6 +209,7 @@
 
 .section-3 {
   background-image: url("../images/background-section-3.png");
+  font-family: 'Poppins', sans-serif;
   height: 600px;
   display: flex;
   flex-direction: column;
@@ -188,6 +230,7 @@
   color: #c0c0c0; }
 
 .section-4 {
+  font-family: 'Poppins', sans-serif;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -222,6 +265,7 @@
 
 .section-5 {
   background-image: url("../images/background-section-5.png");
+  font-family: 'Poppins', sans-serif;
   height: 600px;
   display: flex;
   flex-direction: column;
@@ -241,8 +285,12 @@
   line-height: 143%;
   color: #c0c0c0; }
 
+.section-6 {
+  font-family: 'Poppins', sans-serif; }
+
 .section-7 {
   background-image: url("../images/background-section-7.png");
+  font-family: 'Poppins', sans-serif;
   height: 600px;
   display: flex;
   flex-direction: column;
@@ -261,5 +309,11 @@
   font-size: 14px;
   line-height: 143%;
   color: #c0c0c0; }
+
+.section-8 {
+  font-family: 'Poppins', sans-serif; }
+
+.bottom {
+  font-family: 'Poppins', sans-serif; }
 
 /*# sourceMappingURL=scss.css.map */
