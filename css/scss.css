@@ -195,8 +195,6 @@
   font-size: 23px;
   line-height: 130%;
   text-align: center;
-  color: #c0c0c0;
-  text-align: center;
   color: #c0c0c0; }
 
 .section-2_text h1 {
@@ -237,6 +235,9 @@
   position: absolute;
   max-width: 510px;
   margin: 30px; }
+
+.s2_card_text a img {
+  margin-right: 10px; }
 
 .s2_card a {
   text-decoration: none;
@@ -358,7 +359,7 @@
 .s4-text a {
   text-decoration: none;
   border-radius: 14px;
-  width: 143px;
+  width: 160px;
   height: 42px;
   background: #fff;
   display: flex;
@@ -552,6 +553,21 @@
   margin: 0 30px;
   position: relative; }
 
+.s8-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.s8-text p {
+  max-width: 600px;
+  margin-bottom: 20px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 125%;
+  text-align: center;
+  color: #c0c0c0; }
+
 .section-8 a {
   text-decoration: none;
   border-radius: 14px;
@@ -563,12 +579,13 @@
   align-items: center;
   color: black; }
 
-.section_8 h2 {
+.s8-text h1 {
   font-weight: 400;
   font-size: 40px;
   line-height: 105%;
   text-align: center;
-  color: #fff; }
+  color: #fff;
+  margin-bottom: 20px; }
 
 .s9_bottom {
   font-family: 'Poppins', sans-serif;
@@ -582,6 +599,7 @@
 
 .bottom_1 {
   display: flex;
+  flex-wrap: wrap;
   gap: 30px; }
 
 .s9_list ul li {
@@ -589,8 +607,9 @@
 
 .bottom_2 {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
   align-items: center;
-  gap: 30px;
   position: relative; }
 
 .bottom_2 input {
