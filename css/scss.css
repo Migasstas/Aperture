@@ -86,11 +86,59 @@
   min-height: 700px;
   display: flex;
   justify-content: center;
-  align-items: end; }
+  align-items: end;
+  position: relative; }
 
 .section-1_text {
   max-width: 600px;
   margin-bottom: 60px; }
+
+.icons-s1 {
+  color: white;
+  min-width: 300px;
+  position: absolute;
+  right: 30px;
+  bottom: 0;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 100%; }
+
+.icons-s1 ul {
+  justify-content: space-between;
+  display: flex;
+  list-style: none; }
+
+.icons-s1 .icons-s1-1::before {
+  content: url("../images/Shutter-Icon-Light.png");
+  position: absolute;
+  left: -25px; }
+
+.icons-s1 .icons-s1-1 {
+  position: relative; }
+
+.icons-s1 .icons-s1-2::before {
+  content: url("../images/Aperture-Icon-Light.png");
+  position: absolute;
+  left: -25px; }
+
+.icons-s1 .icons-s1-2 {
+  position: relative; }
+
+.icons-s1 .icons-s1-3::before {
+  content: url("../images/ISO-Icon-Light.png");
+  position: absolute;
+  left: -40px; }
+
+.icons-s1 .icons-s1-3 {
+  position: relative; }
+
+.icons-s1 .icons-s1-4::before {
+  content: url("../images/Location-Icon-Light.png");
+  position: absolute;
+  left: -20px; }
+
+.icons-s1 .icons-s1-4 {
+  position: relative; }
 
 .section-1_text h3 {
   font-weight: 400;
@@ -122,7 +170,8 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  position: relative; }
 
 .s2_text h1 {
   font-weight: 400;
@@ -219,7 +268,55 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: end; }
+  align-items: end;
+  position: relative; }
+
+.icons-s3 {
+  color: white;
+  min-width: 260px;
+  position: absolute;
+  right: 30px;
+  bottom: 20px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 100%; }
+
+.icons-s3 ul {
+  justify-content: space-between;
+  display: flex;
+  list-style: none; }
+
+.icons-s3 .icons-s3-1::before {
+  content: url("../images/Shutter-Icon-Light.png");
+  position: absolute;
+  left: -25px; }
+
+.icons-s3 .icons-s3-1 {
+  position: relative; }
+
+.icons-s3 .icons-s3-2::before {
+  content: url("../images/Aperture-Icon-Light.png");
+  position: absolute;
+  left: -25px; }
+
+.icons-s3 .icons-s3-2 {
+  position: relative; }
+
+.icons-s3 .icons-s3-3::before {
+  content: url("../images/ISO-Icon-Light.png");
+  position: absolute;
+  left: -40px; }
+
+.icons-s3 .icons-s3-3 {
+  position: relative; }
+
+.icons-s3 .icons-s3-4::before {
+  content: url("../images/Location-Icon-Light.png");
+  position: absolute;
+  left: -20px; }
+
+.icons-s3 .icons-s3-4 {
+  position: relative; }
 
 .section-3 h3 {
   font-size: 14px;
@@ -239,7 +336,8 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between; }
+  justify-content: space-between;
+  position: relative; }
 
 .s4-text {
   line-height: 150%;
@@ -275,7 +373,55 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: end; }
+  align-items: end;
+  position: relative; }
+
+.icons-s5 {
+  color: white;
+  min-width: 320px;
+  position: absolute;
+  right: 30px;
+  bottom: 20px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 100%; }
+
+.icons-s5 ul {
+  justify-content: space-between;
+  display: flex;
+  list-style: none; }
+
+.icons-s5 .icons-s5-1::before {
+  content: url("../images/Shutter-Icon-Light.png");
+  position: absolute;
+  left: -25px; }
+
+.icons-s5 .icons-s5-1 {
+  position: relative; }
+
+.icons-s5 .icons-s5-2::before {
+  content: url("../images/Aperture-Icon-Light.png");
+  position: absolute;
+  left: -25px; }
+
+.icons-s5 .icons-s5-2 {
+  position: relative; }
+
+.icons-s5 .icons-s5-3::before {
+  content: url("../images/ISO-Icon-Light.png");
+  position: absolute;
+  left: -40px; }
+
+.icons-s5 .icons-s5-3 {
+  position: relative; }
+
+.icons-s5 .icons-s5-4::before {
+  content: url("../images/Location-Icon-Light.png");
+  position: absolute;
+  left: -20px; }
+
+.icons-s5 .icons-s5-4 {
+  position: relative; }
 
 .section-5 h3 {
   font-size: 14px;
@@ -298,7 +444,8 @@
   text-align: center;
   justify-content: center;
   min-height: 500px;
-  color: #c0c0c0; }
+  color: #c0c0c0;
+  position: relative; }
 
 .section-6 h3 {
   margin-bottom: 60px;
@@ -331,7 +478,55 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: end; }
+  align-items: end;
+  position: relative; }
+
+.icons-s7 {
+  color: white;
+  min-width: 260px;
+  position: absolute;
+  right: 30px;
+  bottom: 20px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 100%; }
+
+.icons-s7 ul {
+  justify-content: space-between;
+  display: flex;
+  list-style: none; }
+
+.icons-s7 .icons-s7-1::before {
+  content: url("../images/Shutter-Icon-Light.png");
+  position: absolute;
+  left: -25px; }
+
+.icons-s7 .icons-s7-1 {
+  position: relative; }
+
+.icons-s7 .icons-s7-2::before {
+  content: url("../images/Aperture-Icon-Light.png");
+  position: absolute;
+  left: -25px; }
+
+.icons-s7 .icons-s7-2 {
+  position: relative; }
+
+.icons-s7 .icons-s7-3::before {
+  content: url("../images/ISO-Icon-Light.png");
+  position: absolute;
+  left: -40px; }
+
+.icons-s7 .icons-s7-3 {
+  position: relative; }
+
+.icons-s7 .icons-s7-4::before {
+  content: url("../images/Location-Icon-Light.png");
+  position: absolute;
+  left: -20px; }
+
+.icons-s7 .icons-s7-4 {
+  position: relative; }
 
 .section-7 h3 {
   font-size: 14px;
@@ -354,7 +549,8 @@
   justify-content: center;
   align-items: center;
   color: #fff;
-  margin: 0 30px; }
+  margin: 0 30px;
+  position: relative; }
 
 .section-8 a {
   text-decoration: none;
