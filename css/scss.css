@@ -699,4 +699,12 @@
   list-style: none;
   text-decoration: none; }
 
+.special {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 143%;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #c0c0c0; }
+
 /*# sourceMappingURL=scss.css.map */
